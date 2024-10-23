@@ -45,7 +45,7 @@ interface Mamals{
 		
  }
 
-
+//Main classs
 public class Interfaces {
 	
 	public static void main (String args[]) {
