@@ -66,6 +66,7 @@ public class Strings_pt2 {
 		sb3.replace(0, 2, "Hello");
 		
 		System.out.println(sb3);
+		System.out.println(sb3);
 		
 		
 		
