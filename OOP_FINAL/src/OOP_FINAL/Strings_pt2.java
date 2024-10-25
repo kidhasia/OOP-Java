@@ -30,6 +30,50 @@ public class Strings_pt2 {
 		System.out.println(sb);
 		System.out.println(myName);
 		
+		//Using append()
+		
+		String name = "Gaveen";
+		
+		StringBuilder sb2 = new StringBuilder (name);
+		
+		sb2.append(" Hasira");
+		
+		System.out.println(sb2); //Basically used for concatenate 
+		
+		//Using concat() 
+		
+		String str = "Hello";
+		
+		str = str.concat(" World!");
+		System.out.println(str);
+		//In above it makes a new string name in string class but in append() it dont build a new variable it only mutate the String
+		
+		//Exercise -02 
+		
+		//Creating a StrigBuilder object
+		
+		StringBuilder sb3 =  new StringBuilder("Hello");
+		
+		//appending the world
+		sb3.append(" World!");
+		 
+		//delete indexes from 0-5 (Hello)
+		sb3.delete(0, 5);
+		
+		//inserting Hi
+		sb3.insert(0, "Hi");
+		
+		sb3.replace(0, 2, "Hello");
+		
+		System.out.println(sb3);
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 
