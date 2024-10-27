@@ -1,5 +1,6 @@
 package OOPQ1P2;
 
+
 import java.io.InputStream;
 import java.util.Scanner;
 
@@ -72,5 +73,22 @@ public class InventoryManager{
 		
 	}
 }
-
+ class GenericInventory{
+	 
+	 //Creating a bound array
+	 public <T extends Number> void calculateAvaerage(T [] numArray) {
+		 
+		 
+	 }
+	 
+	 public <T extends Number> void calculateMinimum(T [] numArray) {
+		 
+		 
+	 }
 	
+}
+
+
+public class InventoryManager{
+	
+}
