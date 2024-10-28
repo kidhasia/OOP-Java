@@ -48,12 +48,12 @@ public class OOP2024Q2{
 			
 			//User input
 			System.out.print("Enter the size of the array: ");
-			int arraySize = scanner.nextInt();
+//			
 			
 			//Creating an array to store user inputs
-			Double [] productArray = new Double [arraySize ];
+			Double [] productArray = new Double [scanner.nextInt() ];
 			
-			for(int i=0; i<arraySize; i++) {
+			for(int i=0; i<scanner.nextInt() ;i++) {
 				System.out.print("Enter product numbers: ");
 				productArray[i] = scanner.nextDouble();
 				
