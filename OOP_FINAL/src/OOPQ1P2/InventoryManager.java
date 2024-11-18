@@ -1,5 +1,6 @@
 package OOPQ1P2;
 
+
 import java.io.InputStream;
 import java.util.Scanner;
 
@@ -72,5 +73,3 @@ public class InventoryManager{
 		
 	}
 }
-
-	
